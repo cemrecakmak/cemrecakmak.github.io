@@ -5,6 +5,8 @@ layout: compress
 <html class="no-js" lang="{% if site.language == nil %}en{% else %}{{ site.language }}{% endif %}">
 <head>
 	{% include _head.html %}
+</head>
+	<body id="top-of-page" class="{{ layout.format }}">
 	<div class="row t30">
 		<div class="medium-12 columns">
 		   <article itemscope itemtype="http://schema.org/Article">
@@ -86,8 +88,7 @@ layout: compress
 		   </article>
 		</div>
 	</div>
-</head>
-<body id="top-of-page" class="{{ layout.format }}">
-	{{ content }}
+
+
 </body>
 </html>
