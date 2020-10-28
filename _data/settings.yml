@@ -46,10 +46,8 @@ projects:
 # Contact Section
 
 social:
-- {icon: 'twitter', link: '#'}
-- {icon: 'instagram', link: '#'}
-- {icon: 'github', link: '#'}
-- {icon: 'linkedin', link: '#'}
-- {icon: 'envelope', link: 'mailto:#'}
+- {icon: 'instagram', link: 'https://instagram.com/cemrecakmak_'}
+- {icon: 'linkedin', link: 'https://tr.linkedin.com/in/cemre-%C3%A7akmak-83490bb5'}
+- {icon: 'envelope', link: 'mailto:cemreckmk@gmail.com'}
 
 # social network icons available: 'twitter' / 'facebook' / 'github' / 'pinterest' 'google-plus' / 'linkedin' / 'youtube' / 'instagram' / 'dribbble' / 'behance' / 'soundcloud' / 'vine'
