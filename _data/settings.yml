@@ -38,12 +38,12 @@ disqus:
 #-------------------------------
 # About Section
 
-hakkimda: >
+about: >
   # Hakkimda
 
   Burayı da dolduracağız.
 
-iletisim: >
+contact: >
   # İletişim
 
   İletişim gelecek.
