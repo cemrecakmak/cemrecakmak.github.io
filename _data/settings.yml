@@ -3,8 +3,7 @@
 
 menu:
 - {name: 'Projeler', url: ''}
-- {name: 'Hakkımda', url: 'sayfalar/hakkimda.html'}
-- {name: 'İletişim', url: 'sayfalar/iletisim.html'}
+- {name: 'İletişim', url: 'pages/contact.html'}
 
 #-------------------------------
 # SEO Section
@@ -25,23 +24,11 @@ seo:
 # NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
 
 # If you are not using Google Analytics, please change 'google-ID' to an empty string
-google-analytics-ua: 'UA-112060364-3'
+google-analytics-ua: ''
 
-#-------------------------------
-# Disqus Section
-
-# Change to true for Disqus comments
-disqus:
-  comments: false
-  disqus_shortname: 'thathungrymind'
 
 #-------------------------------
 # About Section
-
-about: >
-  # Hakkimda
-
-  Burayı da dolduracağız.
 
 contact: >
   # İletişim
