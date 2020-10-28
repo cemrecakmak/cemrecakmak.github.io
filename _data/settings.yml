@@ -39,8 +39,8 @@ contact: >
 # Work Section
 
 projects:
-- {name: 'Project One', folder: 'proj-1', file: 'projects/proj-1.html'}
-- {name: 'Project Two', folder: 'proj-2', file: 'projects/proj-2.html'}
+- {name: 'Desen', folder: 'pattern', file: 'projects/pattern.html'}
+- {name: 'Grafik', folder: 'graphic', file: 'projects/graphic.html'}
 
 #-------------------------------
 # Contact Section
