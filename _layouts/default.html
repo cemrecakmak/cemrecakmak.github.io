@@ -20,6 +20,7 @@
   </title>
 
   <link rel="stylesheet" href="{{ site.github.url }}/assets/css/all.css">
+  <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.10.0/css/lightgallery.css " /> 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <!--[if lt IE 9]><script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
@@ -39,15 +40,25 @@
 </head>
 <body>
 
-<div class="site-container">
+  <div class="site-container">
 
-  {% include header.html %}
+    {% include header.html %}
 
-  {{ content }}
+    {{ content }}
 
-</div>
+  </div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script src="{{ site.github.url }}/assets/js/functions.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="{{ site.github.url }}/assets/js/functions.js"></script>
+
+  <link href="{{ site.github.url }}/assets/js/simplelightbox/dist/simple-lightbox.min.css" rel="stylesheet" />
+  
+  <!-- As A Vanilla JavaScript Plugin -->
+  <script src="{{ site.github.url }}/assets/js/simplelightbox/dist/simple-lightbox.min.js"></script>
+  
+  <!-- For legacy browsers -->
+  <script src="{{ site.github.url }}/assets/js/simplelightbox/dist/simple-lightbox.legacy.min.js"></script>
+  <script src="{{ site.github.url }}/assets/js/simplelightbox/dist/simple-lightbox.jquery.min.js"></script>
+  
 </body>
 </html>
